@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Gulzar&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;1,400&family=Josefin+Sans:wght@200;300&family=Kdam+Thmor+Pro&family=Lobster+Two&family=Maven+Pro:wght@400;500;600;700&family=Mingzat&family=Montserrat:ital,wght@0,200;0,300;1,200&family=Mukta:wght@200;300;400;500;600&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:ital,wght@1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="position.css" />
+    <title>Position property</title>
+  </head>
+  <body>
+    <h1>The position property</h1>
+    <p>
+      The position property specifies the type of positioning method used for an
+      element.
+    </p>
+
+    <h2>5 different position values</h2>
+    <ul>
+      <li>Static</li>
+      <li>Relative</li>
+      <li>Fixed</li>
+      <li>Absolute</li>
+      <li>Sticky</li>
+    </ul>
+    <p>
+      Elements are positioned using <span>top, bottom, left</span> and
+      <span>right </span>properties after the <span>position property </span>is
+      set first. Otherwise it wont work.
+    </p>
+
+    <h3>Position: Static</h3>
+    <p>
+      By default, HTML elements are positioned static. They are not affected by
+      the top, bottom, left and right properties. They are always positioned
+      according to the normal flow of the page.
+
+      <div class="static">
+        This div element has position: static;
+        </div>
+    </p>
+
+    <h3>Position: Relative</h3>
+    <p>An element with this position is positioned relative to its normal position</p>
+    <p>Setting the relatively position element to top, bottom, left and right will cause an element to be adjusted to specified direction away from its normal position.</p>
+    <div class="relative">
+        This div element has position: relative;
+        </div>
+
+        <h3>Position: Fixed</h3>
+        <p>An element is positioned relative to its viewport. It always stays in the same place even when you scroll the page. The top, bottom, right and left positions can be used.</p>
+        <div class="fixed">
+            This div element has position: fixed;
+            </div>
+
+            <h3>Position: Absolute</h3>
+            <p>An element is positioned relative to the nearest positioned ancestor instead of viewport</p>  
+            <p> if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.</p>
+            <p>Absolute positioned elements are removed from the normal flow, and can overlap elements.</p>
+
+            <div class="relative2">This div element has position: relative;  </div>
+                <div class="absolute">This div element has position: absolute;</div>
+            </div>
+
+            <h3>Position: Sticky</h3>
+            <p>An element with position: sticky; is positioned based on the user's scroll position.</p>
+
+
+  </body>
+</html>
