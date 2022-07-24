@@ -60,3 +60,43 @@ div.fixed {
     border: 3px solid #73AD21;
   }
 
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .container{
+    position: relative;
+  }
+
+  .topleft{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  } 
+
+  .bottomleft{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+  }
+
+  .bottomright{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+
+  .topright{
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+
+  .center{
+    position: absolute;
+   top:50%;   /*This puts a message on top of a picture */
+    width: 100%;
+    text-align: center;
+  }
+
