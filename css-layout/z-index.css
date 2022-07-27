@@ -53,3 +53,30 @@ p{
     top: -15px;
     height: 100px;
   }
+
+  .main-box{
+height: 200px;
+width: 500px;
+position: relative;
+border: 5px solid red;
+  }
+
+  .box1{
+    height: 100px;
+    width: 200px;
+    background-color: hotpink;
+    position: absolute;
+    z-index: 1;
+    bottom: -15px;
+    left: 10px;
+  }
+
+  .box2{
+    height: 100px;
+    width: 200px;
+    background-color: purple;
+    z-index: -1;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
