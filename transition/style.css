@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 50px;
+    font-size: 20px;
+}
+
+span{
+    color: crimson;
+}
+
+.one{
+    width: 200px;
+    height: 50px;
+    background-color: hotpink;
+    transition: width 2s, height 4s;  /*comma is necessary */
+    transition-timing-function: ease-out;
+    transition-delay: 1s; /* The effect delays for 1s */
+}
+
+ .one:hover{
+    width: 400px; /* the width will increase to 400px on hover for 2s */
+    height: 100px;
+} 
+
+.two {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .two:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+  }

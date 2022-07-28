@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;1,100&family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Gulzar&family=Josefin+Sans:wght@200;300&family=Kdam+Thmor+Pro&family=Lobster+Two&family=Maven+Pro:wght@400;500;600;700&family=Mingzat&family=Montserrat:ital,wght@0,200;0,300;1,200&family=Mukta:wght@200;300;400;500;600&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:ital,wght@1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Transition property</title>
+  </head>
+  <body>
+    <h1><span>CSS Transitions</span></h1>
+    <p>
+      CSS transitions allows you to change property values smoothly, over a
+      given duration.
+    </p>
+    <h2>
+      <span>What to learn</span>
+    </h2>
+    <ul>
+      <li>transition</li>
+      <li>transition-delay</li>
+      <li>transition-duration</li>
+      <li>transition-property</li>
+      <li>transition-timing-function</li>
+    </ul>
+
+    <p>In order to create a transition effect, 2 things must be specified</p>
+    <ul>
+      <li>The css property you want to add an effect on</li>
+      <li>The duration of the effect</li>
+    </ul>
+    <div class="one">hotpink</div>
+
+    <h2>Transition-timing-function</h2>
+    <p>
+      The property specifies the speed curve of the transition effect. It can
+      have the following values
+    </p>
+    <ul>
+      <li>
+        ease - specifies a transition effect with a slow start, then fast, then
+        end slowly (this is default)
+      </li>
+      <li>
+        linear - specifies a transition effect with the same speed from start to
+        end
+      </li>
+      <li>ease-in - specifies a transition effect with a slow start</li>
+      <li>ease-out - specifies a transition effect with a slow end</li>
+      <li>
+        ease-in-out - specifies a transition effect with a slow start and end
+      </li>
+      <li>
+        cubic-bezier(n,n,n,n) - lets you define your own values in a
+        cubic-bezier function
+      </li>
+    </ul>
+    <h2>Delay the transition effect</h2>
+    <p>
+      The transition-delay property specifies a delay (in seconds) for the
+      transition effect.
+    </p>
+
+    <h2>Transition + Transformation</h2>
+    <div class="two">green</div>
+  </body>
+</html>
